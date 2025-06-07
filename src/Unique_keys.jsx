@@ -80,8 +80,16 @@ function Unique_keys() {
               </div>
             </li>
           ))}
+          
         </ul>
+        <div className='Filter-box'>
+        <button onClick={()=>setFilter('all')}>all</button>
+           <button onClick={()=>setFilter('complete')}>complete</button>
+              <button onClick={()=>setFilter('incomplete')}>incomplete
+
+              </button></div>
       </div>
+
     </div>
   );
 }
