@@ -1,0 +1,17 @@
+.shop11{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.shops{
+    border-radius: 30px;
+    padding: 70px;
+    background: white;
+   text-align: center;
+    gap: 10px;
+}
+body{
+    background: linear-gradient(120deg , rgb(213, 200, 200),rgb(155, 141, 141));
+   
+   
+}

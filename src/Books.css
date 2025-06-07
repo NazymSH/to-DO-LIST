@@ -1,0 +1,28 @@
+.class{
+    margin-top: 60px;
+    padding: 25px;
+    background: rgb(255, 136, 0); 
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+   
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.Header{
+    display: flex;
+    gap: 10px;
+}
+h6{
+   font-size: 50px;
+   text-align: center;
+    color: orange;
+}
+body{
+    background: linear-gradient(100deg,black, white);
+}
