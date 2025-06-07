@@ -91,6 +91,7 @@ function Kino() {
                 : 'Отметить как просмотренный'}
             </button>
           </div>
+          <div></div>
         </div>
       ))}
     </div>
