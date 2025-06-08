@@ -1,0 +1,80 @@
+.container{
+    padding: auto;
+    width: 500px;
+    height: 600px;
+    background: white;
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+body{
+    background: rgb(207, 193, 207);
+}
+
+.btn{
+  background-color: #18d952;
+  color: white;
+  padding: 10px 16px;
+  margin: 10px 5px 0 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn1{
+     background-color: #ff0000;
+  color: white;
+  padding: 10px 16px;
+  margin: 10px 5px 0 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+select{
+    display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+margin-top: 20px;
+ }
+.inp{
+    width: 90%;
+height: 25px;
+border-radius: 5px;
+
+}
+.inp1{
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+} 
+.class{
+    margin-top:100px;
+}
+.clas2{
+   border: #18d952;
+}
+input{
+ display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+margin-top: 20px;}
+.box{
+    border: rgb(0, 123, 255) solid 5px;
+}
+.class5{
+    margin-top: 20px;
+}

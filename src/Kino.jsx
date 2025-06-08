@@ -94,6 +94,11 @@ function Kino() {
           <div></div>
         </div>
       ))}
+
+
+
+
+      
     </div>
   );
 }

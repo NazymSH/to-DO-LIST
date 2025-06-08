@@ -90,43 +90,73 @@
 
 
 
-import React, { useState } from "react";
-import './Ternary.css'
+// import React, { useState } from "react";
+// import './Ternary.css'
 
-function Ternary() {
-  const [isShow, setShow] = useState(false);
-  const [isLogin, setLogin] = useState(false);
+// function Ternary() {
+//   const [isShow, setShow] = useState(false);
+//   const [isLogin, setLogin] = useState(false);
 
-  return (
-    <div className="class">
+//   return (
+//     <div className="class">
      
-      {!isShow && !isLogin && (
-        <div>
-          <p>Жүйеге кіру қажет</p>
-          <button onClick={() => setShow(true)}>Register</button>
-          <button onClick={() => setLogin(true)}>Login</button>
-        </div>
-      )}
+//       {!isShow && !isLogin && (
+//         <div>
+//           <p>Жүйеге кіру қажет</p>
+//           <button onClick={() => setShow(true)}>Register</button>
+//           <button onClick={() => setLogin(true)}>Login</button>
+//         </div>
+//       )}
 
       
-      {isShow && !isLogin && (
-        <div>
-          <p>Register form</p>
-          <input type="text" placeholder="Enter email or number" />
-          <input type="password" placeholder="Enter new password" />
-          <button onClick={() => setShow(false)}>Register</button>
-        </div>
-      )}
+//       {isShow && !isLogin && (
+//         <div>
+//           <p>Register form</p>
+//           <input type="text" placeholder="Enter email or number" />
+//           <input type="password" placeholder="Enter new password" />
+//           <button onClick={() => setShow(false)}>Register</button>
+//         </div>
+//       )}
 
     
-      {isLogin && !isShow && (
-        <div>
-          <p>Бастапқы бетке қош келдіңіз</p>
-          <button onClick={() => setLogin(false)}>Login out</button>
-        </div>
-      )}
-    </div>
-  );
+//       {isLogin && !isShow && (
+//         <div>
+//           <p>Бастапқы бетке қош келдіңіз</p>
+//           <button onClick={() => setLogin(false)}>Login out</button>
+//         </div>
+//       )}
+//     </div>
+//   );
+// }
+
+// export default Ternary;
+
+import React,{useState} from 'react';
+ function  Ternary(){
+//   const [count,setCout]=useState(0)
+    
+//   return(
+//     <div>
+//       <h1>{count}</h1>
+//       <button onClick={()=>setCout(count+1)}>+</button>
+//       <button onClick={()=>setCout(count-1)}>-</button>
+//     </div>
+//   )
+const fruits = ['Алма', 'Банан', 'Өрік'];
+
+return (
+  <ul>
+    {fruits.map((fruit, index) => (
+      <li key={index}>{fruit}</li>
+    ))}
+  </ul>
+);
+
+
 }
 
-export default Ternary;
+
+
+
+
+export default Ternary
