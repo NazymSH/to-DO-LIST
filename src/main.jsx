@@ -1,16 +1,16 @@
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
-// import Kino from './Kino'
+import Kino from './Kino'
 
 
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     < Kino/>
-//   </StrictMode>,
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    < Kino/>
+  </StrictMode>,
   
-// )
+ )
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
 
@@ -25,15 +25,19 @@
 //   </StrictMode>,
   
 // )
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-
-import FeedbackForm from './components/FeedbackForm'
 
 
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    < FeedbackForm/>
-  </StrictMode>
-)
+
+
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+
+// import FeedbackForm from './components/FeedbackForm'
+
+
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     < FeedbackForm/>
+//   </StrictMode>
