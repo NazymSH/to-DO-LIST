@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Kino.css';
 
 function Kino() {
@@ -8,7 +8,17 @@ function Kino() {
     description: '',
     poster: '',
   });
-
+const[effect,setEffect]=useState('')
+useEffect(()=>{
+  if(effect==='add'){
+  alert('қосылды')}
+else if(effect==='delete'){
+  alert('Өшірілді')
+}
+else if(effect==='toggle'){
+  alert('күйі өзгерді')
+}
+},[movies])
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
@@ -20,11 +30,13 @@ function Kino() {
         { ...form, id: Date.now(), watched: false },
       ]);
       setForm({ title: '', description: '', poster: '' });
+      setEffect('add')
     }
   };
 
   const handleDelete = (id) => {
     setMovies(movies.filter((movie) => movie.id !== id));
+    setEffect('delete')
   };
 
   const handleToggleWatched = (id) => {
@@ -35,6 +47,7 @@ function Kino() {
           : movie
       )
     );
+    setEffect('toggle')
   };
 
   return (

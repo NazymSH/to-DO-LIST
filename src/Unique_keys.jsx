@@ -1,19 +1,35 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Unique_keys.css';
 
 function Unique_keys() {
-  const [tasks, setTasks] = useState([{ task: 'Do homework', completed: false }]);
+  const [tasks, setTasks] = useState([]);
   const [value, setValue] = useState('');
   const [text, setText] = useState('');
   const [filter, setFilter] = useState('all');
+  const[effect,setEffect]=useState('')
+
+   useEffect(()=>{
+     if(effect==='add'){
+       alert('қосу')
+     }
+     else if(effect==='toggle'){
+      alert('мән ozgerdi')
+     }
+     else if(effect==='delete')
+      alert('мән жойылды')
+    },[tasks])
+  
 
   const handelRemoveIndex = (id) => {
     setTasks(tasks.filter((_, index) => index !== id));
-  };
-
-
-
-
+    setEffect('delete');
+      }
+useEffect(() => {
+  const storedTasks = JSON.parse(localStorage.getItem('tasks'));
+  if (storedTasks) {
+    setTasks(storedTasks);
+  }
+}, []);
   return (
     <div className="container1">
       <div className="sidebar">
@@ -53,8 +69,10 @@ function Unique_keys() {
         />
         <button className='btn1'
           onClick={() => {
+            setEffect('add')
             setText(value);
-            setTasks([...tasks, { task: value, completed: false }]);
+            setTasks([...tasks, { task: value, completed: false}]);
+               localStorage.setItem('tasks',JSON.stringify(tasks))
           }}
         >
           Қосу
@@ -66,17 +84,19 @@ function Unique_keys() {
               <span>{n.task}</span>
               <div className="task-actions">
                 <button className='btn2'
-                  onClick={() =>
+                  onClick={() =>{
+                    setEffect('toggle')
                     setTasks(
                       tasks.map((task, i) =>
                         i === index ? { ...task, completed: !task.completed } : task
                       )
                     )
-                  }
+                  }}
                 > 
                   {n.completed  ? 'Қайта бастау' : 'Аяқталды' }
                 </button>
-                <button className='btn' onClick={() => handelRemoveIndex(index)}>Жою</button>
+                <button className='btn' onClick={() =>   handelRemoveIndex(index) }>Жою</button>
+              
               </div>
             </li>
           ))}
