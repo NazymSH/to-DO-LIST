@@ -1,0 +1,118 @@
+.profile-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 70px;
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.profile-container h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.profile-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #555;
+}
+
+
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-container h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.about-container .about {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.project-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.project-container h1 {
+  font-size: 50px;
+  color: #454343;
+  margin-bottom: 20px;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.05);
+}
+.btn{
+   display: inline-block;
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+h6{
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.imgg2 img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+.imgg2{
+  display: flex;
+  gap: 10px;
+  margin-left: 150px;
+}

@@ -10,7 +10,7 @@ function Unique_keys() {
 
    useEffect(()=>{
      if(effect==='add'){
-       alert('қосу')
+       alert(' қосу')
      }
      else if(effect==='toggle'){
       alert('мән ozgerdi')

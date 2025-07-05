@@ -1,16 +1,16 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
 
-import Kino from './Kino'
+// import Kino from './Kino'
 
 
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    < Kino/>
-  </StrictMode>,
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     < Kino/>
+//   </StrictMode>,
   
- )
+//  )
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
 
@@ -55,3 +55,28 @@ createRoot(document.getElementById('root')).render(
 //   </StrictMode>,
   
 //  )
+
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// import App from './Dynamic_routing/app'
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <App/>
+//   </StrictMode>,
+  
+//  )
+
+
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+
+import Comp2 from './assets/UseContext/Comp2'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <Comp2/>
+  </StrictMode>,
+  
+ )
+ 

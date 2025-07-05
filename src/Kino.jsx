@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Kino.css';
-
+import { useNavigate } from "react-router-dom";
 function Kino() {
   const [movies, setMovies] = useState([]);
   const [form, setForm] = useState({
@@ -11,7 +11,7 @@ function Kino() {
 const[effect,setEffect]=useState('')
 useEffect(()=>{
   if(effect==='add'){
-  alert('қосылды')}
+  alert(' Кино қосылды')}
 else if(effect==='delete'){
   alert('Өшірілді')
 }
@@ -103,6 +103,7 @@ else if(effect==='toggle'){
                 ? 'Отметить как не просмотренный'
                 : 'Отметить как просмотренный'}
             </button>
+            <button className='btn' onClick={()=>navigate('/profile')}>Home</button>
           </div>
           <div></div>
         </div>
