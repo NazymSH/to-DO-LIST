@@ -71,11 +71,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Comp2 from './assets/UseContext/Comp2'
+// import Comp2 from './assets/UseContext/Comp2'
+import App from './assets/Language/App'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Comp2/>
+    <App/>
   </StrictMode>,
   
  )

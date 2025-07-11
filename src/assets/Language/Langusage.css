@@ -1,0 +1,44 @@
+.CLASS{
+   margin-left: 400px;
+   margin-top: 60px;
+   width: 540px;
+  padding: 60px;
+  border-radius: 25px;
+  border: 2px solid #2a85d4;
+  box-shadow: 0 8px 20px rgba(10, 140, 255, 0.3);
+}
+
+.class {
+  background-color:#a7dba3;;
+  padding: 30px;
+  border-radius: 25px;
+  border: 2px solid #8FCB89;;
+  box-shadow: 0 8px 20px  #8FCB89 (10, 140, 255, 0.3);
+}
+
+.class select {
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+ 
+  background-color: #e7f3ff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+body{
+    text-align: center;
+  background-color: #ffffff;
+}
+
+p{
+    font-size: 20px;
+}
+.text{
+    
+    font-size: 40px;
+}
+.text2{
+    font-size: 55px;
+    color: #1c5d96;
+}
