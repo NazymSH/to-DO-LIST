@@ -11,7 +11,7 @@ function Language() {
 const LanguageContext = createContext();
 
 function Grandparent() {
-  const [Language, setLanguage] = useState("");
+  const [Language, setLanguage] = useState("Миссия түн ортасында басталды");
   return (
     <LanguageContext.Provider value={{ Language, setLanguage }}>
       <Parent />
@@ -25,7 +25,7 @@ function Childd() {
 
   return ( <div className="CLASS">
     <div className="class">
-       <h1>This is Main component👩‍🏫</h1>
+       <h1>This is Main component👩‍🏫</h1> 
     <p className="class">{Language.Language}</p>
       <select 
         value={Language.Language}
@@ -35,7 +35,6 @@ function Childd() {
         <option value="Миссия начинается в полночь">Орысша</option>
       </select>
         </div>
-     
     </div>
   );
 }
