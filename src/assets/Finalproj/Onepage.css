@@ -1,0 +1,209 @@
+/* 
+.containerA {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.selector-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.label {
+  margin-right: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.year-select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.year-select:hover {
+  border-color: #666;
+}
+
+.events-wrapper {
+  margin-top: 20px;
+}
+
+.year-title {
+  font-size: 1.6rem;
+  color: #34495e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.event-card {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-person {
+  font-size: 1.3rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.event-desc {
+  font-size: 1rem;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.event-media {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.no-selection {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 40px;
+} */
+/* Негізгі контейнер */
+.containerA {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #1e293b, #0f172a);
+  font-family: 'Segoe UI', sans-serif;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Тақырып */
+.title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #facc15;
+  text-shadow: 1px 1px 4px #38bdf8;
+}
+
+/* Таңдағыш обертка */
+.selector-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Таңдағыш жазуы */
+.label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+/* Таңдағыш элемент */
+.year-select {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #334155;
+  color: #f1f5f9;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.year-select:hover {
+  background-color: #475569;
+}
+
+/* Таңдалған жыл */
+.year-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #e2e8f0;
+  border-bottom: 2px solid #94a3b8;
+  padding-bottom: 8px;
+}
+
+/* Оқиғалар оберткасы */
+.events-wrapper {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 25px;
+}
+
+/* Әр оқиға карточкасы */
+.event-card {
+  background-color: #1a3053;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Адамның аты */
+.event-person {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+/* Оқиға сипаттамасы */
+.event-desc {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #f1f5f9;
+}
+
+/* Сурет */
+.event-media {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Таңдалмаған жағдайда */
+.no-selection {
+  font-size: 18px;
+  color: #cbd5e1;
+  margin-top: 40px;
+}

@@ -1,0 +1,176 @@
+
+.quiz-container {
+  position: relative;
+  background-color: #002B4B;
+  padding: 50px 0;
+ 
+  min-height: 100vh;
+}
+.quiz-container h2{
+ 
+   color: #00B4D8;
+   font-size: 30px;
+   margin-left: 30%;
+}
+
+.quiz-container::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #444;
+  transform: translateX(-50%);
+}
+
+
+.figure-button {
+  position: relative;
+  width: 250px;
+  padding: 15px 20px;
+  margin: 30px 0;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  color: rgb(2, 2, 2);
+  background: #00B4D8;
+  box-shadow: 0 4px 12px #515859;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.figure-button:hover {
+  background-color:#90E0EF ;
+  transform: scale(1.02);
+}
+
+.figure-button.left {
+  left: 48%;
+  transform: translateX(-100%);
+}
+
+.figure-button.right {
+  left: 52%;
+  transform: translateX(0%);
+}
+
+.figure-button {
+  position: relative;
+  display: block;
+  margin: 40px 0;
+}
+
+.figure-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.figure-button.left::before {
+  right: -10px;
+}
+
+.figure-button.right::before {
+  left: -10px;
+}
+/* Жалпы контейнер фоны */
+.quiz-containerf {
+  
+  background-color: #002B5B; /* Темный көк */
+  color: #FFFFFF;            /* Ақ жазу */
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: 90px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+ 
+}
+
+.quiz-containers{
+   /* position: relative;
+  
+  padding: 50px 0;
+ 
+ */background-color: #002B4B; min-height: 100vh;
+  min-width: 100vh; 
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 баған */
+ gap: 10px;
+  
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+}
+
+.quiz-containers h3{
+  font-size: 40px;
+  margin-right: 20% ;
+  color: #d5dde2;
+  /* box-shadow: 10px 12px #57bdf4; */
+ margin-top: 150px;
+}
+/* .guizanswer {
+  margin: 15px 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d72121;
+  text-align: end;
+  
+} */
+
+/* Жауап батырмалары */
+.answer-button { background-color: #00B4D8;
+  color: white;
+  transition: background-color 0.3s ease;
+  /*
+   width: 70%; 
+   border-radius: 8px;  
+    box-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff, 0 0 45px #00bfff;
+   font-size: 56px;  
+   
+background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px; */
+  /* gap: 10px; */
+  /* cursor: pointer;  */
+}.answer-button:hover {
+  background-color: #90E0EF;
+} 
+/* 
+ 
+
+/* Қайта бастау батырмасы */
+.restart-button {
+  background-color: #0077B6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #00B4D8;
+}
+.quiz-container h3{
+  color: white;
+  font-size: 30px;
+}
+.quiz-container h2{
+  color: #ffffff;
+  font-size: 50px;}
+/* }
+.quiz-container p{
+  font-size: 67px;
+} */

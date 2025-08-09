@@ -10,21 +10,24 @@
 //     < Kino/>
 //   </StrictMode>,
   
-//  )
-// import { StrictMode } from 'react'
-// import { createRoot } from 'react-dom/client'
-
-
-// import Ternary from './Ternary'
+// //  )
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
 
 
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     < Ternary/>
-//   </StrictMode>,
+// import QuizApp from "./assets/Finalproj/QuizApp"
+// import QuizApp from './assets/Finalproj/QuizApp'
+import App from './assets/Finalproj/App'
+
+
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App/>
+  </StrictMode>,)
   
-// )
+
 
 
 
@@ -58,7 +61,8 @@
 
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
-// import App from './Dynamic_routing/app'
+
+// import App from "./assets/Finalproj/App.jsx";
 
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
@@ -68,16 +72,17 @@
 //  )
 
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
 
-// import Comp2 from './assets/UseContext/Comp2'
-import App from './assets/ProtectedRoute/App'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App/>
-  </StrictMode>,
+
+// import App from "./assets/Dynamic_routing/App";
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <Ternary/>.
+//   </StrictMode>,
   
- )
+//  )
  

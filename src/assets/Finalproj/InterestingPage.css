@@ -1,0 +1,150 @@
+/* 
+
+.interesting-container {
+  max-width: 1800px;
+  margin: auto;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #764702, #9a7823);
+  border-radius: 20px;
+ margin-top: -300px; 
+  
+  
+}
+
+
+.card {
+  background-color: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card h2 {
+  margin-top: 0;
+}
+ 
+.media-block {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px; 
+
+}
+.insta-post {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.insta-post img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fcbf49;
+}
+
+ .person-abai { border-left: 8px solid #f9a825; margin-top: 500px; }
+.person-farabi { border-left: 8px solid #00acc1; }
+.person-aliya { border-left: 8px solid #d81b60; }
+.person-bauyrzhan { border-left: 8px solid #43a047; }
+.person-kenesary { border-left: 8px solid #6d4c41; }
+.person-napoleon { border-left: 8px solid #5e35b1; }
+.person-anna { border-left: 8px solid #ef5350; }
+.person-shokan { border-left: 8px solid #1e88e5; }
+.person-ybyrai { border-left: 8px solid #f4511e; }
+.person-almaz { border-left: 8px solid #8e24aa; } 
+
+
+
+
+.interesperson{
+ 
+  margin-left: 400px;
+  
+} *//* InterestingPage.css */
+
+.interesting-container {
+  background-color: #000; /* Қара фон */
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.interesperson {
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  background-color: #111;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.interesperson:hover {
+  transform: scale(1.02);
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  color: #00e6e6;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.media-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media-block iframe {
+  margin: 20px 0;
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  border: 2px solid #00e6e6;
+}
+
+.insta-post {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.insta-post img {
+  max-width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+  margin-bottom: 10px;
+}
+
+.insta-post p {
+  font-style: italic;
+  color: #ccc;
+  font-size: 15px;
+}
+
+/* Аудио плейер стили */
+audio {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 400px;
+}
